@@ -67,7 +67,6 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
->>>>>>> Add plan.md and a .gitignore
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -75,17 +74,11 @@ fabric.properties
 *.so
 *.dylib
 
-<<<<<<< HEAD
-# Test binary, build with `go test -c`
-=======
 # Test binary, built with `go test -c`
->>>>>>> Add plan.md and a .gitignore
 *.test
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
-<<<<<<< HEAD
-=======
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
@@ -138,4 +131,3 @@ flycheck_*.el
 
 # network security
 /network-security.data
->>>>>>> Add plan.md and a .gitignore
