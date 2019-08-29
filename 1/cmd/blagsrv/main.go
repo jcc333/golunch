@@ -48,7 +48,8 @@ func reportError(err error) {
 // a func(MyCoolerErrorStruct) string
 // and returns a string
 func applyFunc(s MyCoolerErrorStruct, fn func(MyCoolerErrorStruct) string) string {
-	return s.fin(s)
+	// this doesn't work; can't reorient a function to method syntax return s.fn()
+	return fn(s)
 }
 
 // This is a function called main that has no arguments and returns nothing
